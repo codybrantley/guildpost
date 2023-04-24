@@ -1,0 +1,21 @@
+
+// Foundation
+@import url('https://cdn.jsdelivr.net/foundation/6.2.4/foundation.min.css');
+
+// Assets
+@import "~vue-wysiwyg/dist/vueWysiwyg.css";
+@import "~@fortawesome/fontawesome-free/scss/fontawesome";
+@import "~@fortawesome/fontawesome-free/scss/solid";
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Raleway:100,300,400,600');
+@import url('https://fonts.googleapis.com/css?family=Roboto:300,400,600');
+
+// Pages
+@import "global";
+@import "pages";
+@import "events";
+@import "treasury";
+@import "lottery";
+@import "admin";
+@import "auth";

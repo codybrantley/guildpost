@@ -1,11 +1,11 @@
 @extends('layouts.app')
 
 @section('content')
-<div class="container">
+<div class="container page cover">
     <div class="row">
         <div class="col-md-8 col-md-offset-2">
-            <div class="panel panel-default">
-                <div class="panel-heading">Login</div>
+            <div class="panel panel-auth">
+                <h3>Login</h3>
 
                 <div class="panel-body">
                     <form class="form-horizontal" method="POST" action="{{ route('login') }}">
@@ -50,15 +50,15 @@
                         </div>
 
                         <div class="form-group">
-                            <div class="col-md-8 col-md-offset-4">
-                                <button type="submit" class="btn btn-primary">
-                                    Login
-                                </button>
-
-                                <a class="btn btn-link" href="{{ route('password.request') }}">
-                                    Forgot Your Password?
-                                </a>
-                            </div>
+                            <button type="submit" class="button">
+                                Login
+                            </button>
+                            <a class="link" href="{{ route('password.request') }}">
+                                Forgot your password?
+                            </a>
+                            <a class="link" href="{{ route('register') }}">
+                                Register an account
+                            </a>
                         </div>
                     </form>
                 </div>

@@ -1,0 +1,64 @@
+/* Calendar */
+
+.calendar {
+	table-layout: fixed;
+}
+
+.calendar td {
+	border: 1px solid #f1f1f1;
+}
+
+table tbody tr:nth-child(even) {
+	background-color: #fff;
+}
+
+.calendar .day {
+	position: relative;
+	height: 140px;
+}
+
+.calendar .day.current {
+	background-color: #fefbf5;
+}
+
+.calendar .day .num {
+	position: absolute;
+	top: -2px;
+    right: 2px;
+	color: #adadad;
+}
+
+.calendar .darken {
+	background-color: #f1f1f1;
+}
+
+.calendar .day .event {
+	width: 100%;
+    border-radius: 12px;
+}
+
+.calendar .day .more {
+	font-size: 0.8em;
+}
+
+.eventTag {
+	position: relative;
+	top: -7px;
+	border-radius: 10px;
+}
+
+.label.alert {
+	background-color: #ec5840!important;
+}
+
+.label.success {
+	background-color: #3FC380!important;
+}
+
+.label.primary {
+	background-color: #52B3D9!important;
+}
+
+.label.secondary {
+	background-color: #6C7A89!important;
+}
